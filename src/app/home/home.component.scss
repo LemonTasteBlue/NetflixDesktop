@@ -2,12 +2,16 @@
 
 }
 
-.container {
+.home {
   margin: 0 auto;
   width: 100vw;
   height: 100vh;
-  background-image: url("/assets/images/background.png");
+  //background-image: url("/assets/images/background.png");
   background-size: cover; /* <------ */
   background-repeat: no-repeat;
   background-position: center center;
+
+  &__landing-view {
+    background-image: url("/assets/images/background.png");
+  }
 }
